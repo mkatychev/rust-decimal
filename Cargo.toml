@@ -35,7 +35,7 @@ num-traits = { default-features = false, features = ["i128"], version = "0.2" }
 postgres = { default-features = false, optional = true, version = "0.19" }
 proptest = { default-features = false, optional = true, features = ["std"], version = "1.0" }
 rand = { default-features = false, optional = true, version = "0.8" }
-rkyv = { default-features = false, features = ["size_32", "std"], optional = true, version = "0.7.42" }
+rkyv = { default-features = false, features = ["size_32", "std"], optional = true, git = "https://github.com/mkatychev/rkyv", rev = "5d258aca" }
 rocket = { default-features = false, optional = true, version = "0.5.0-rc.1" }
 serde = { default-features = false, optional = true, version = "1.0" }
 serde_json = { default-features = false, optional = true, version = "1.0" }
